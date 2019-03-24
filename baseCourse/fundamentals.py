@@ -17,6 +17,7 @@ def square2(anumber, bnumber):
 
 print('square2 of all:' + str(square2(anumber=9,bnumber=9)))    #使用自定义函数
 
+
 def add_value(x=3, constant=10):    #x跟constant都有个默认取值了
     return constant+x
 print(add_value())
@@ -28,4 +29,5 @@ def sum_and_diff(x,y):    #支持有两个返回值，成为一个tuple  （tupl
 valueOfVandD = sum_and_diff(10,5)
 
 print(valueOfVandD)
+
 
